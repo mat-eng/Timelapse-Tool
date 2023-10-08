@@ -4,6 +4,14 @@
 # Description
 Timelapse Tool is a simple GUI to build video Timelapse from pictures. It uses moviepy.
 
+| File             | Description                                          |
+| ---------------- | ---------------------------------------------------- |
+| main.py          | Main script                                          |
+| GeneratePyGUI.py | Used to generate main_window.py from main_window.ui  |
+| main_window.py   | Python UI file                                       |
+| main_window.ui   | UI file created with Qt                              |
+| GenerateExe.py   | Used to generate Windows executable with pyinstaller |
+
 # Step by step guide
 ## 1. Folder selection
 First choose the folder that contains all the pictures for the Timelapse. Note that all pictures should have the same resolution.
